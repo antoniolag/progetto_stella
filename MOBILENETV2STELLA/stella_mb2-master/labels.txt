@@ -1,0 +1,12 @@
+car
+dog
+horse
+pig
+cow
+sheep
+apple
+orange
+banana
+background
+train
+duck
