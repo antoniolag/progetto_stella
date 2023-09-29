@@ -42,12 +42,3 @@ drive.mount('/content/drive',  force_remount=True)
 !python /content/drive/MyDrive/stella_mb2-master/detect_saved.py
 
 !python /content/drive/MyDrive/stella_mb2-master/detect.py
-
-#Vecchio Modello
-!python /content/drive/MyDrive/detect_saved.py
-
-#Test Modello D1
-!python /content/drive/MyDrive/MOBILENETV2STELLA/stella_mb2/detect.py
-
-#Test Modello D2
-!python /content/drive/MyDrive/MOBILENETV2STELLA/stella_mb2/detect.py
