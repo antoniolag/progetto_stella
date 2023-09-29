@@ -1,0 +1,95 @@
+Clonazione della repository contenente TensorFlow Models
+    !git clone  https://github.com/tensorflow/models
+
+
+Ho montato il mio Google Drive nell’ambiente Google Colab, per accedere ai file e alle cartelle presenti
+
+    from google.colab import drive
+    drive.mount('/content/drive',  force_remount=True)
+
+
+Istallazione TensorFlow Object Detection API
+
+    cd models/research/
+    protoc object_detection/protos/*.proto --python_out=.
+    cp object_detection/packages/tf2/setup.py .
+    python -m pip install .
+
+
+Ho creato il labels.txt contenente i nomi degli oggetti di interesse
+
+
+Preparazione Mappa delle label leggendo il labels.txt creato in precendenza
+
+    !python /content/drive/MyDrive/stella_mb2 master/script_dataset/
+    prepareLabelMap.py
+
+Eseguito lo script generate\textunderscore tfrecord.py per convertire dati annotati in precendenza, 
+in formato Pascal VOC nel file di record TensorFlow (TFRecord), specificando con:
+
+    -x il path contenente i file di train .xml di input
+    -l il path contenente la mappa delle label
+    -o path di output train.record
+
+    !python /content/drive/MyDrive/stella_mb2-master/script_dataset/
+    generate_tfrecord.py 
+    -x /content/drive/MyDrive/dataset/train 
+    -l /content/drive/MyDrive/stella_mb2-master/labels_map.pbtxt 
+    -o /content/drive/MyDrive/stella_mb2-master/data/dataset/train.record
+
+
+Comando analogo al precendente ma considerando i file di validation
+
+    !python /content/drive/MyDrive/stella_mb2-master/script_dataset/
+    generate_tfrecord.py 
+    -x /content/drive/MyDrive/dataset/val 
+    -l /content/drive/MyDrive/stella_mb2-master/labels_map.pbtxt 
+    -o /content/drive/MyDrive/stella_mb2-master/data/dataset/val.record
+
+
+Scarico mobilenet\textunderscore v2 è un modello di object detection specifico, che è incluso nella libreria API di rilevamento degli oggetti di TensorFlow
+
+
+    !wget http://download.tensorflow.org/models/object_detection/
+    tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz
+
+
+File per configurare i path delle cartelle
+
+    !python /content/drive/MyDrive/stella_mb2-master/updateConfig.py
+
+
+Definizione del percorso file TFRecord, crea un dataset dal file TFRecord, conta il numero di record presenti nel dataset, crea un dataset dal file TFRecord e conta il numero di record presenti nel dataset
+
+
+    !python /content/drive/MyDrive/stella_mb2-master/assertDataset.py
+
+
+Comando per addestrare la rete attraverso il modello tf2 con 50000 step, specificando la diretcory della cartella train e il pipeline.config generata nel Workspace
+
+    !python /content/models/research/object_detection/model_main_tf2.py 
+    --model_dir=train/ 
+    --pipeline_config_path=/content/drive/MyDrive/stella_mb2-master/
+    network/ssd/pipeline.config 
+    --num_train_steps=50000
+
+
+Esporta il modello per la detection salvato in tf2 per la conversione in in TensorFlow Lite
+
+    !python /content/models/research/object_detection/
+    export_tflite_graph_tf2.py
+    --trained_checkpoint_dir /content/drive/MyDrive/train     
+    --output_directory /content/drive/MyDrive/stella_mb2-master/network/
+    ssd/saved_model     
+    --pipeline_config_path /content/drive/MyDrive/stella_mb2-master/
+    network/ssd/pipeline.config
+
+
+Definisce la funzione per l'inferenza con il modello TFLite e la visualizzazione dei risultati
+
+    !python /content/drive/MyDrive/stella_mb2-master/quanti.py
+    !python /content/drive/MyDrive/stella_mb2-master/detect_saved.py
+
+Valutazione delle metriche del modello
+
+    !python /content/drive/MyDrive/stella_mb2-master/detect.py
