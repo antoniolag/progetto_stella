@@ -1,0 +1,8 @@
+models/
+checkpoint/
+data/
+images/
+saved_model/
+train/
+*.jpg
+weights_orig/
