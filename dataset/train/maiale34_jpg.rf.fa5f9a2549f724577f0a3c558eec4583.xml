@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>maiale34_jpg.rf.fa5f9a2549f724577f0a3c558eec4583.jpg</filename>
+	<path>maiale34_jpg.rf.fa5f9a2549f724577f0a3c558eec4583.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pig</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>148</xmin>
+			<xmax>216</xmax>
+			<ymin>60</ymin>
+			<ymax>122</ymax>
+		</bndbox>
+	</object>
+</annotation>

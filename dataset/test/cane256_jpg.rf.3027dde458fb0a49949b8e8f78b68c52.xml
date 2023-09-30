@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>cane256_jpg.rf.3027dde458fb0a49949b8e8f78b68c52.jpg</filename>
+	<path>cane256_jpg.rf.3027dde458fb0a49949b8e8f78b68c52.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>248</xmin>
+			<xmax>300</xmax>
+			<ymin>160</ymin>
+			<ymax>228</ymax>
+		</bndbox>
+	</object>
+</annotation>

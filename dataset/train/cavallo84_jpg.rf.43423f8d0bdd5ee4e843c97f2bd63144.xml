@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>cavallo84_jpg.rf.43423f8d0bdd5ee4e843c97f2bd63144.jpg</filename>
+	<path>cavallo84_jpg.rf.43423f8d0bdd5ee4e843c97f2bd63144.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>horse</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>216</xmin>
+			<xmax>321</xmax>
+			<ymin>264</ymin>
+			<ymax>320</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>pecora108_jpg.rf.43d93cff14cedf65ce914ca2a16e4ced.jpg</filename>
+	<path>pecora108_jpg.rf.43d93cff14cedf65ce914ca2a16e4ced.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sheep</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>147</xmin>
+			<xmax>190</xmax>
+			<ymin>115</ymin>
+			<ymax>160</ymax>
+		</bndbox>
+	</object>
+</annotation>

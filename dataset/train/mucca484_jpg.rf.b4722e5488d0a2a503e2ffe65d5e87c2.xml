@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>mucca484_jpg.rf.b4722e5488d0a2a503e2ffe65d5e87c2.jpg</filename>
+	<path>mucca484_jpg.rf.b4722e5488d0a2a503e2ffe65d5e87c2.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cow</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>98</xmin>
+			<xmax>188</xmax>
+			<ymin>187</ymin>
+			<ymax>276</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>sfondo23_jpg.rf.d6705aaeb3769252967baf73e18ad499.jpg</filename>
+	<path>sfondo23_jpg.rf.d6705aaeb3769252967baf73e18ad499.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>background</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>320</xmax>
+			<ymin>1</ymin>
+			<ymax>320</ymax>
+		</bndbox>
+	</object>
+</annotation>

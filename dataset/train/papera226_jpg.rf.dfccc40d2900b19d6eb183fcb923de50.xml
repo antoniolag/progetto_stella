@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>papera226_jpg.rf.dfccc40d2900b19d6eb183fcb923de50.jpg</filename>
+	<path>papera226_jpg.rf.dfccc40d2900b19d6eb183fcb923de50.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>duck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>143</xmin>
+			<xmax>196</xmax>
+			<ymin>134</ymin>
+			<ymax>224</ymax>
+		</bndbox>
+	</object>
+</annotation>

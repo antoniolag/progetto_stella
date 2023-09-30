@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frutta_arancia89_jpg.rf.5f5ab00df2f5792ab6887bb17d5e752e.jpg</filename>
+	<path>frutta_arancia89_jpg.rf.5f5ab00df2f5792ab6887bb17d5e752e.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>153</xmin>
+			<xmax>199</xmax>
+			<ymin>74</ymin>
+			<ymax>138</ymax>
+		</bndbox>
+	</object>
+</annotation>

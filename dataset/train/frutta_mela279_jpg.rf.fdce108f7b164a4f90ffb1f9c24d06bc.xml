@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>frutta_mela279_jpg.rf.fdce108f7b164a4f90ffb1f9c24d06bc.jpg</filename>
+	<path>frutta_mela279_jpg.rf.fdce108f7b164a4f90ffb1f9c24d06bc.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>56</xmin>
+			<xmax>115</xmax>
+			<ymin>70</ymin>
+			<ymax>149</ymax>
+		</bndbox>
+	</object>
+</annotation>

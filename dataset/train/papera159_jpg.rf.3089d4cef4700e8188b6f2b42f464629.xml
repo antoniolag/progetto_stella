@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>papera159_jpg.rf.3089d4cef4700e8188b6f2b42f464629.jpg</filename>
+	<path>papera159_jpg.rf.3089d4cef4700e8188b6f2b42f464629.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>duck</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>145</xmin>
+			<xmax>198</xmax>
+			<ymin>45</ymin>
+			<ymax>135</ymax>
+		</bndbox>
+	</object>
+</annotation>

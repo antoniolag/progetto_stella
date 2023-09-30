@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>sfondo107_jpg.rf.147f63b475a55df0564910b3aa5d1efb.jpg</filename>
+	<path>sfondo107_jpg.rf.147f63b475a55df0564910b3aa5d1efb.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>background</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>320</xmax>
+			<ymin>1</ymin>
+			<ymax>320</ymax>
+		</bndbox>
+	</object>
+</annotation>

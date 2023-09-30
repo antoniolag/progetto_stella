@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>treno129_jpg.rf.5fa885e9e0813d6ce104603bdb956360.jpg</filename>
+	<path>treno129_jpg.rf.5fa885e9e0813d6ce104603bdb956360.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>train</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>148</xmax>
+			<ymin>168</ymin>
+			<ymax>228</ymax>
+		</bndbox>
+	</object>
+</annotation>

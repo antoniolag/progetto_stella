@@ -1,0 +1,48 @@
+item { 
+	name:'car'
+	id:1
+}
+item { 
+	name:'dog'
+	id:2
+}
+item { 
+	name:'horse'
+	id:3
+}
+item { 
+	name:'pig'
+	id:4
+}
+item { 
+	name:'cow'
+	id:5
+}
+item { 
+	name:'sheep'
+	id:6
+}
+item { 
+	name:'apple'
+	id:7
+}
+item { 
+	name:'orange'
+	id:8
+}
+item { 
+	name:'banana'
+	id:9
+}
+item { 
+	name:'background'
+	id:10
+}
+item { 
+	name:'train'
+	id:11
+}
+item { 
+	name:'duck'
+	id:12
+}
